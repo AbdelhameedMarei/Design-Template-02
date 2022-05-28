@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppines', sans-serif;
+}
+
+.header{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1{
+    flex-basis: 43%;
+    flex-grow: 1;
+    background-image: url(img/background.png);
+    background-size: cover;
+    background-position: center;
+    padding: 40px;
+    color: #fff;
+}
+
+.col-2{
+    flex-basis: calc(100% - 43%);
+    flex-grow: 1;
+    padding: 40px 70px;
+    background-image: url(img/music.png);
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.col-1 nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo{
+    width: 80px;
+    cursor: pointer;
+}
+
+nav .search-icon{
+    width: 25px;
+    cursor: pointer;
+}
+
+.left-text{
+    width: 80%;
+    margin: 180px auto 0;
+}
+
+.left-text h1{
+    font-size: 30px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.left-text p{
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin: 30px 0;
+}
+
+.left-text a img{
+    width: 50px;
+    margin-right: 20px;
+}
+
+.left-text a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #fff;
+    margin-top: 30px;
+}
+
+.left-text a:hover{
+    transform: scale(.9);
+    transition: .5s;
+}
+
+
+.col-2 nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;flex-wrap: wrap;
+    margin-bottom: 100px;
+    
+}
+
+.col-2 nav ul li a{
+    text-decoration: none;
+    color: #333;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.btn{
+    border: 3px solid #ff5a5a;
+    padding: 10px 20px;
+}
+
+.right-text{
+    width: 90%;
+    margin: 160px auto 0;
+}
+
+.right-text h1{
+    font-size: 35px;
+    font-weight: 500;
+    color: #333;
+}
+
+.right-text h5{
+    font-size: 16px;
+    color: rgb(84, 80, 80);
+    margin: 30px 0;
+}
+
+.right-text p{
+    line-height: 1.4;
+    font-size: 14px;
+    color: rgb(146, 143, 143);
+}
+
+.right-text button{
+    background-color: #ff5a5a;
+    padding: 14px 40px;
+    border: 1px solid #ff5a5a;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    margin-top: 30px;
+    box-shadow: 0px 2px 5px #ff5a5a;
+}
+
+.right-text button:hover{
+    transform: translateY(-5px);
+    transition: transform .5s;
+}
